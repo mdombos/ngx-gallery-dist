@@ -1,8 +1,8 @@
 (function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common'), require('@angular/platform-browser')) :
-	typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/common', '@angular/platform-browser'], factory) :
-	(factory((global['ngx-gallery'] = {}),global.core,global.common,global.platformBrowser));
-}(this, (function (exports,core,common,platformBrowser) { 'use strict';
+	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common'), require('@angular/platform-browser'), require('ngx-pinch-zoom')) :
+	typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/common', '@angular/platform-browser', 'ngx-pinch-zoom'], factory) :
+	(factory((global['ngx-gallery'] = {}),global.core,global.common,global.platformBrowser,globa.ngxPinchZoom));
+}(this, (function (exports,core,common,platformBrowser,ngxPinchZoom) { 'use strict';
 
 class NgxGalleryActionComponent {
     constructor() {
