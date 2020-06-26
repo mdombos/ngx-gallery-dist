@@ -10,6 +10,9 @@
     "name": "Łukasz Gałka",
     "email": "lukasz.galka@intive.com"
   },
+  "dependencies": {
+    "ngx-pinch-zoom": "^2.4.4",
+  },
   "keywords": [
     "ngx",
     "angular",
